@@ -61,7 +61,7 @@ export default {
       });
     },
     remove(id) {
-      //comment for
+      //comment for solving
       this.products = this.products.filter(e => e.id !== id);
     }
   }
